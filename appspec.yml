@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /slow-hello-world.js
-    destination: /var/node
+  - source: slow-hello-world.js
+    destination: /var/www/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
