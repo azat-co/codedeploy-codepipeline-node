@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: slow-hello-world.js
+  - source: server.js
     destination: /var/www/
 hooks:
   BeforeInstall:
