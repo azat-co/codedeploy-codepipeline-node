@@ -3,7 +3,7 @@ require('http')
   .createServer((req, res) => {
     console.log(`incoming url: ${req.url} and incoming method: ${req.method}`)
     res.writeHeader(200,{'Content-Type': 'text/html'})
-    res.end('<h1>Hello World from AWS CodeDeploy and CodePipeline</h1>')
+    res.end('<h1>Happy Friday VMWare!!!</h1>')
   })
   .listen(port, (error)=>{
     console.log(`server is running on ${port}`)
